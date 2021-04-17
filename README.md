@@ -1,1 +1,1 @@
-# Pthon-course-codes
+# Python-course-codes
