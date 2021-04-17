@@ -1,0 +1,7 @@
+MODELLING A PROBLEM IN OOPs
+
+We identify the following in our problem :
+
+Noun --> Class --> Employee
+Adjective --> Attributes --> name,age,salary
+Verbs --> Methods --> getSalary(), increment()
