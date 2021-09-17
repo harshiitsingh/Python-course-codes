@@ -8,4 +8,4 @@ class Employee:
 
 harry = Employee()
 harry.salary = 100000
-harry.getSalary()   # Employee.getSalary(harry) # both will work same
+harry.getSalary()   # Employee.getSalary(harry) # both will work same as it will internally converted to harry.getsalary()

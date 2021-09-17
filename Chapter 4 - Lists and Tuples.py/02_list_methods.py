@@ -6,7 +6,8 @@ print(l1_sorted)
 
 l1.sort()
 print(l1)
-print(l1.sort)
+print(l1.sort())
+print(l1.sort())
 
 # 2
 l1.reverse()

@@ -33,8 +33,10 @@ print(c)
 # Slicing with skip value
 d = name[1:4:1]
 e = name[1:4:2]
+f = name[::-1]
 print(d)
 print(e)
+print(f)
 
 name = "HarryIsGood"
 d = name[0::2]

@@ -12,3 +12,7 @@ else:
 #     return char in all_vowels
 # print(is_vowel('c'))
 # print(is_vowel('e'))
+
+list = [1,2,3,4]
+l = ['emp{0}'.format(i) for i in  list]
+print(l)

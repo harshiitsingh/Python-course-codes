@@ -9,7 +9,7 @@ b.add(5)
 b.add(5) # Adding a value repetedly does not changes a set
 b.add(5)
 # Adding list in the set
-# b.add([4,5,6])  --> throws error, coz list can be changed or it contentscan be later changed
+# b.add([4,5,6])  --> throws error, coz list can be changed or it contents can be later changed
 # Adding tuple in the set
 b.add((4,5,6)) # can be added coz it cannot be changed
 # b.add({4:5}}) # cannot add list or dictionary or any hashable datatype

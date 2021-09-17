@@ -1,4 +1,4 @@
-
+# In this we do not need to use self parameter.
 class Employee:
     company = "Google"
 
@@ -12,11 +12,17 @@ class Employee:
     def greet():  # now here if u put self, it will show an error.
         print("Good Morning, Sir")
 
+    @staticmethod
+    def time():
+        print("The time is 9 AM in the morning")
+
 harry = Employee()
 harry.salary = 100000
 # harry.getSalary()
-harry.getSalary("Thanks!")
-harry.greet()
+harry.getSalary("Thanks!") 
+# harry.getSalary()  # Employee.getSalary(harry)
+harry.greet() # Employee.greet()
+harry.time()
 
 '''
 fxn = method
