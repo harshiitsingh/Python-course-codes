@@ -5,7 +5,7 @@ class Invent:
         self.p = p
         self.k = k
 
-    def inventday(self):
+    def days(self):
         ans = 0
         a=p%self.k - 1 
         b=((n-1)//self.k)*self.k
@@ -28,4 +28,4 @@ for i in range(num):
         n,p,k = map(int, input().split())
         ans = Invent(n,p,k)
         
-        print(ans.inventday())
+        print(ans.days())
