@@ -13,7 +13,20 @@ c = 'Harry"s'
 d = '''Harry"s and Harry's''' 
 e = '''Harry"s and
 
- Harry's''' 
+Harry's''' 
 f = '''Harry"s and
-             Harry's''' 
+            Harry's''' 
 print(b,c,d,e,f)
+
+print('Harshit')
+
+print("Harshit's Laptop")
+print('Harshit\'s Laptop')
+
+print('Harshit "Laptop"') # To use double quote
+print('Harshit\'s "Laptop"')
+
+print(10 * 'Harshit')
+
+# print('c:\docs\nav') # gives error coz \n is the special literal in python
+print(r'c:\docs\nav') # use raw string -> print/use the string as it is

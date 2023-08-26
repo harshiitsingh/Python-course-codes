@@ -7,7 +7,9 @@ print("The value of 3+4 is",a+b)
 print(8+2)
 print("The value of 3-4 is",3-4)
 print("The value of 3*4 is",3*4)
-print("The value of 3/4 is",3/4)
+print("The value of 3/4 is",3/4) # try 8/4 # --> Floating Point Representation
+print("The value of 3//4 is",3//4) # try 8/4 # gives only integer/quotient. Integer Division
+print("The value of 3%4 is",3%4) # try 8/4
 # Assignment operator
 a = 34
 a += 2
@@ -28,3 +30,14 @@ print("The value of not bool2 is",(not bool2))
 
 #to find remainder
 print(34%2)
+
+# You can control the order of operations in long calculations with parentheses.
+print(((1 + 3) * (9 - 2) / 2) ** 2)
+
+# In general, Python follows the PEMDAS rule when deciding the order of operations.
+'''
+P -> Parentheses first
+E -> Exponents (ie Powers and Square Roots, etc.)
+MD -> Multiplication and Division (left-to-right)
+AS -> Addition and Subtraction (left-to-right)
+'''

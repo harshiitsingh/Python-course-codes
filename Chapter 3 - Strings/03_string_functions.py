@@ -3,7 +3,7 @@ print(story[0])
 print(story[0:5])
 
 # String Functions
-print(len(story))
+print(len(story)) # find the length of the string
 print(len("MANISHU"))
 a = len("AYUSHIT")
 print(a)

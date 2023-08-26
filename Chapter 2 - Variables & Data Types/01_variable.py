@@ -1,3 +1,4 @@
+# Variable is like a container. Can change their values.
 a = "harry" # its a string, since its under a double quote, hence python automatically identifies it as a string literal
 b = 345 # its an integer(by default) stored under a variable container b
 c = 45.32 # its a float or c is a variable of type or datatype float

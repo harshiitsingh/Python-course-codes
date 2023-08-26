@@ -11,9 +11,18 @@ print(name[1])
 print(name[2])
 print(name[3])
 print(name[4])
-# print(name[5])
+# print(name[5]) # IndexError: string index out of range
 
 # name[3] = "d" --> does not work, we can access a character or element of a string but cannot change
+# name[3:] = "gh"
+'''
+Strings in Python are IMMUTABLE.
+https://www.mygreatlearning.com/blog/understanding-mutable-and-immutable-in-python/
+
+But can do:
+print("Hi" + name)
+print("Hi" + name[3:])
+'''
 
 
 # String slicing
