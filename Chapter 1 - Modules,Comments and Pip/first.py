@@ -1,9 +1,9 @@
 # This is my first python program
-#jdfegdiufiuvg// testing how to comment
+# jdfegdiufiuvg // testing how to comment
 '''
 this is multiple line comment
 '''
-import os #built in module
+import os # built in module
 # import flask //external module
 # import tensorflow
 

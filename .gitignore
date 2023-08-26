@@ -4,3 +4,8 @@
 .vscode
 
 .myprojectenv
+
+myprojectenv/
+env1/
+.vscode/
+# .gitignore
