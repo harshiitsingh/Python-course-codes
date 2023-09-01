@@ -31,3 +31,8 @@ print(i)
 print(type(a))
 print(type(b))
 print(type(c))
+
+'''
+How variables stored in the memory?
+https://youtu.be/_OZIAHg5i7M?si=VF2euLpuiMHQFs-E
+'''
