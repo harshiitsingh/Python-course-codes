@@ -16,3 +16,5 @@ print(t[0])
 # t[0] = 34   # --> throws an error
 
 # Once defined a tuple elements cant be altered or manipulated
+# When to use Tuples? --> when you don't want to change the values.
+# Since we can't change values in tuples, so iterations are faster in tuples than in lists.

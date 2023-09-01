@@ -12,7 +12,7 @@ print(a[1])
 print(a[4])
 # print(a[7]) --> Error
 
-# Change the value of list using
+# Change the value of list using --> LISTS are MUTABLE
 a[0] = 98
 print(a)
 

@@ -27,6 +27,21 @@ print(myDict.get("harry")) # Prints value associated with the key "harry"
 print(myDict["harry"]) # Prints value associated with the key "harry"
 # But the difference b/w .get and [] syntax in Dictionaries : ?
 print(myDict.get("harry2")) # Returns None as harry2 is not present in the dictionary
-print(myDict["harry2"]) # throws error as harry2 is not present in the dictionary
+# print(myDict["harry2"]) # throws error as harry2 is not present in the dictionary
+
+print(myDict.get('harry', 'Not Found'))
+print(myDict.get('Harry', 'Not Found')) ## if key is not present in the dictionary, write according to you to give the output
+
+## How to merge two lists to form a dictionary?
+keys = ['Harshit', 'Nishant', 3] ## or name as l1
+values = ['Daddy', 5, 'Java'] ## or l2
+data = dict(zip(keys, values))
+print(data)
+
+data['Somu'] = 'c++'
+print(data)
+
+del data['Harshit']
+print(data)
 
 # for more methods google, python dictionary method
