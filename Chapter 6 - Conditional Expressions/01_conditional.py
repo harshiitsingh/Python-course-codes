@@ -1,3 +1,5 @@
+# Its great to know about flowcharts
+
 a = 45
 
 # 1) if-elif-else ladder in Python
@@ -24,7 +26,7 @@ if(a>13):
 
 if(a>17):
     print("The value of a is greater than 17")
-       # above three if are independent to each other  
+        # above three if are independent to each other  
 if(a>7):
     print("The value of a is greater than 7")        
 else:
