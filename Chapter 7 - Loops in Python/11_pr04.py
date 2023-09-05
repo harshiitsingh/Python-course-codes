@@ -11,6 +11,8 @@ if prime:
     print("This number is Prime")
 else:
     print("This number is not Prime")
+    
+## Make the above code efficient.
 
 # Q.5 WAP to find the sum of first n natural numbers using while loop.
 

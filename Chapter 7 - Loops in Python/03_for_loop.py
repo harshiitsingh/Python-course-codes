@@ -5,3 +5,8 @@ list = [4, "Harshit", 'Ayushi', 402]
 
 for item in list:
     print(item)
+    
+x = 'Harshit'
+
+for item in x:
+    print(item)
