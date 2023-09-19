@@ -14,3 +14,4 @@ print(type(item1_price_total)) # int
 
 # If we want to tell python that we want to create a datatype of our own, it will allow
 # us to write a code that we can reuse in the future easily if needed.
+# Each Instance could have attributes to describe related information about it.
