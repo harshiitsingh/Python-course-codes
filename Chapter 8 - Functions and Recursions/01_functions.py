@@ -1,3 +1,6 @@
+## Why to use functions?
+## Advantages?
+
 marks = [45, 78, 86, 77]
 average = sum(marks)/4       # or average = (marks[0] + marks[1] + marks[2] + marks[3])/4
 percentage = (sum(marks)/400)*100
@@ -18,3 +21,12 @@ print(percentage)
 print(percent(marks1))
 
 # QUICK QUIZ - WAP to greet a user with "Good day" using functions.
+
+# We can return two values in the function
+def operation(x,y):
+    c = x+y
+    d = x-y
+    return c,d
+
+a,b = operation(3,4)
+print(a,b)
