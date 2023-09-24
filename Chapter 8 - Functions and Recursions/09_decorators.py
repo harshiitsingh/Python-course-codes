@@ -23,7 +23,7 @@ Properties of functions:-
 
 #3
 Properties of Decorators:-
--The outer function is called the decorator, which takes the original function as an argument and returns a modified version of it.
+- The outer function is called the decorator, which takes the original function as an argument and returns a modified version of it.
 - Decorator contains an outer function that also takes a function as an argument.
 - Inside the outer function, there is another function that takes a number of parameters as per the logic as an argument.
 - Inner function contains the code for the logic that must be contained in the previously defined normal function.
@@ -35,7 +35,7 @@ Properties of Decorators:-
 
 # def div(a,b):
 #     print(a/b)
-#
+# div(4,2)
 # div(2,4)
 
 
@@ -46,6 +46,7 @@ Properties of Decorators:-
 #
 # div(2,4)
 
+## if the div fxn code is not with us and we are importing from other file
 def div(a,b):
     print(a/b)
 
@@ -59,6 +60,9 @@ def smart_div(func):
 
     return inner
 
-div = smart_div(div)
+div = smart_div(div) # we can assign a fxn to a fxn, bcoz everything in python is object.
+# changing the behavior of old div fxn to new fxn with our logic at compile time.
+
+## Python is a functional programming.
 
 div(2,4)
