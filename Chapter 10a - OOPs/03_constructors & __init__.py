@@ -17,8 +17,6 @@ Syntax of constructor declaration :
 
 --> Magic Methods
 
---> Full Name Instance Attributes
---> Class Attributes 
 '''
 
 class Item:
